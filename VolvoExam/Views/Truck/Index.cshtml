@@ -1,0 +1,50 @@
+﻿@model IEnumerable<VolvoExam.ViewModels.TruckViewModel>
+
+@{ ViewData["Title"] = "Index"; }
+
+<p>
+    <a class="btn btn-primary " asp-action="Create">New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ManufactureYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModelYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TruckModel.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var truck in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => truck.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => truck.ManufactureYear)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => truck.ModelYear)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => truck.TruckModel.Name)
+    </td>
+    <td>
+        <a class="btn btn-primary btn-xs" asp-action="Edit" asp-route-id="@truck.Id">Edit</a> |
+        <a class="btn btn-default btn-xs" asp-action="Details" asp-route-id="@truck.Id">Details</a> |
+        <a class="btn btn-danger btn-xs" asp-action="Delete" asp-route-id="@truck.Id">Delete</a>
+    </td>
+</tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,39 @@
+@model VolvoExam.ViewModels.TruckViewModel
+
+@{ ViewData["Title"] = "Details"; }
+
+<h2>Truck details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ManufactureYear)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ManufactureYear)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ModelYear)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ModelYear)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TruckModel.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary btn-xs" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index"> &laquo; Back to List</a>
+</div>

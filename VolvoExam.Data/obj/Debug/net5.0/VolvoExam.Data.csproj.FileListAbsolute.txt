@@ -1,0 +1,15 @@
+C:\Users\Valter\Desktop\VolvoExam.Data\bin\Debug\net5.0\VolvoExam.Data.deps.json
+C:\Users\Valter\Desktop\VolvoExam.Data\bin\Debug\net5.0\VolvoExam.Data.runtimeconfig.json
+C:\Users\Valter\Desktop\VolvoExam.Data\bin\Debug\net5.0\VolvoExam.Data.runtimeconfig.dev.json
+C:\Users\Valter\Desktop\VolvoExam.Data\bin\Debug\net5.0\VolvoExam.Data.dll
+C:\Users\Valter\Desktop\VolvoExam.Data\bin\Debug\net5.0\ref\VolvoExam.Data.dll
+C:\Users\Valter\Desktop\VolvoExam.Data\bin\Debug\net5.0\VolvoExam.Data.pdb
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.AssemblyInfoInputs.cache
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.AssemblyInfo.cs
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.csproj.CoreCompileInputs.cache
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.dll
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\ref\VolvoExam.Data.dll
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.pdb
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.genruntimeconfig.cache
+C:\Users\Valter\Desktop\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.csproj.AssemblyReference.cache
