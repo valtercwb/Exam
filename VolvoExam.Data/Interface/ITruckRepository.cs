@@ -6,11 +6,11 @@ namespace VolvoExam.Data.Interface
 {
   public interface ITruckRepository
   {
-    void Delete(long? id);
+    IEnumerable<TruckModel> ListTruckModel();
     Truck GetTruck(long? id);
     IEnumerable<Truck> List();
-    void Create(Truck truck);
-    void Edit(Truck truck);
-    IEnumerable<TruckModel> ListTruckModel();
+    bool Create(Truck truck);
+    bool Edit(Truck truck);
+    bool Delete(long? id);
   }
 }

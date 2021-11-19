@@ -20,23 +20,36 @@ namespace VolvoExam.Data.Repository
       return _context.Set<TruckModel>().Where(x => x.Active == true).ToList();
     }
 
-    void ITruckRepository.Create(Truck truck)
+    bool ITruckRepository.Create(Truck truck)
     {
       _context.Set<Truck>().Add(truck);
       _context.SaveChanges();
+      return true;
     }
 
-    void ITruckRepository.Delete(long? id)
+    bool ITruckRepository.Delete(long? id)
     {
-      var truck = _context.Set<Truck>().Where(x => x.Id == id).FirstOrDefault();
-      _context.Set<Truck>().Remove(truck);
-      _context.SaveChanges();
+      try
+      {
+        var truck = _context.Set<Truck>().Where(x => x.Id == id).FirstOrDefault();
+        _context.Set<Truck>().Remove(truck);
+        _context.SaveChanges();
+        return true;
+      }
+      catch (System.Exception)
+      {
+      }
+
+      return false;
+
     }
 
-    void ITruckRepository.Edit(Truck truck)
+    bool ITruckRepository.Edit(Truck truck)
     {
       _context.Update(truck);
       _context.SaveChanges();
+
+      return true;
     }
 
     Truck ITruckRepository.GetTruck(long? id)

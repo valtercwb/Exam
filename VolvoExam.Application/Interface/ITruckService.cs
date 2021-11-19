@@ -8,15 +8,11 @@ namespace VolvoExam.Application.Interface
   public interface ITruckService
   {
     IEnumerable<TruckTransient> List();
-
-    TruckTransient GetTruck(long? id);
-
-    void Delete(long? id);
-
-    void Create(TruckTransient truck);
-
-    void Edit(TruckTransient truck, long? id);
     IEnumerable<TruckModel> ListTruckModel();
     IEnumerable<int> GetValidTruckModelYears();
+    TruckTransient GetTruck(long? id);
+    bool Delete(long? id);
+    bool Create(TruckTransient truck);
+    bool Edit(TruckTransient truck, long? id);
   }
 }

@@ -1885,6 +1885,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "EntityFramework": "6.4.0",
           "VolvoExam.Data": "1.0.0"
         },
         "compile": {
@@ -6750,11 +6751,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam\\VolvoExam.csproj",
+      "projectUniqueName": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam\\VolvoExam.csproj",
       "projectName": "VolvoExam",
-      "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam\\VolvoExam.csproj",
+      "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam\\VolvoExam.csproj",
       "packagesPath": "C:\\Users\\Valter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam\\obj\\",
+      "outputPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Valter\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6771,11 +6772,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj": {
-              "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj"
+            "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj": {
+              "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj"
             },
-            "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj": {
-              "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj"
+            "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj": {
+              "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj"
             }
           }
         }

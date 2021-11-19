@@ -25,7 +25,7 @@ namespace VolvoExam.Application.Service
       return _truckRepository.ListTruckModel();
     }
 
-    void ITruckService.Create(TruckTransient truck)
+    bool ITruckService.Create(TruckTransient truck)
     {
       var truckEntity = new Truck()
       {
@@ -35,25 +35,25 @@ namespace VolvoExam.Application.Service
         TruckModelId = truck.TruckModelId
       };
 
-      _truckRepository.Create(truckEntity);
+      return _truckRepository.Create(truckEntity);
     }
 
-    void ITruckService.Delete(long? id)
+    bool ITruckService.Delete(long? id)
     {
-      _truckRepository.Delete(id);
+      return _truckRepository.Delete(id);
     }
 
-    void ITruckService.Edit(TruckTransient truck, long? id)
+    bool ITruckService.Edit(TruckTransient truck, long? id)
     {
       var truckEntity = _truckRepository.GetTruck(id);
       truckEntity.Name = truck.Name;
       truckEntity.ModelYear = truck.ModelYear;
       truckEntity.TruckModelId = truck.TruckModelId;
 
-      _truckRepository.Edit(truckEntity);
+      return _truckRepository.Edit(truckEntity);
     }
 
-    TruckTransient ITruckService.GetTruck(long? id)
+    public TruckTransient GetTruck(long? id)
     {
       return _mapper.Map<TruckTransient>(_truckRepository.GetTruck(id));
     }

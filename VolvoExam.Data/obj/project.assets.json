@@ -6707,11 +6707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
       "projectName": "VolvoExam.Data",
-      "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
+      "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
       "packagesPath": "C:\\Users\\Valter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\obj\\",
+      "outputPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Valter\\AppData\\Roaming\\NuGet\\NuGet.Config",

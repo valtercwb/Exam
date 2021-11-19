@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam\\VolvoExam.csproj": {}
+    "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam\\VolvoExam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj": {
+    "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj",
         "projectName": "VolvoExam.Application",
-        "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj",
+        "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj",
         "packagesPath": "C:\\Users\\Valter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Application\\obj\\",
+        "outputPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Valter\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj": {
-                "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj"
+              "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj": {
+                "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -68,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj": {
+    "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
         "projectName": "VolvoExam.Data",
-        "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
+        "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
         "packagesPath": "C:\\Users\\Valter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\obj\\",
+        "outputPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Valter\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam\\VolvoExam.csproj": {
+    "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam\\VolvoExam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam\\VolvoExam.csproj",
+        "projectUniqueName": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam\\VolvoExam.csproj",
         "projectName": "VolvoExam",
-        "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam\\VolvoExam.csproj",
+        "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam\\VolvoExam.csproj",
         "packagesPath": "C:\\Users\\Valter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam\\obj\\",
+        "outputPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Valter\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,11 +188,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj": {
-                "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj"
+              "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj": {
+                "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj"
               },
-              "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj": {
-                "projectPath": "C:\\Users\\Valter\\Desktop\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj"
+              "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj": {
+                "projectPath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj"
               }
             }
           }
