@@ -1,9 +1,11 @@
 using Moq;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using VolvoExam.Application.Interface;
 using VolvoExam.Application.Transients;
 using VolvoExam.Application.Util;
+using VolvoExam.Data.Entities;
 using Xunit;
 
 namespace VolvoExam.ApplicationTest.Service
@@ -73,14 +75,15 @@ namespace VolvoExam.ApplicationTest.Service
       var truckDto = new TruckTransient
       {
         Id = truckId,
-        ModelYear = 2021,
+        ModelYear = 2022,
         Name = "Truck unit test",
+        ManufactureYear = DateTime.Now.Year,
         TruckModelId = 1
       };
 
       var serviceTruckMock = new Mock<ITruckService>();
 
-      serviceTruckMock.Setup(m => m.Create(truckDto)).Returns(true);
+      serviceTruckMock.Setup(m => m.GetTruck(truckId)).Returns(truckDto);
 
       var serviceTruckMockObject = serviceTruckMock.Object;
 
@@ -89,7 +92,7 @@ namespace VolvoExam.ApplicationTest.Service
 
       // Assert
       Assert.Equal(truckId, truck.Id);
-      Assert.NotEqual(DateTime.Now.Year, truck.ManufactureYear);
+      Assert.Equal(DateTime.Now.Year, truck.ManufactureYear);
     }
 
     [Fact]
@@ -100,8 +103,7 @@ namespace VolvoExam.ApplicationTest.Service
       var truckDto = new TruckTransient
       {
         Id = truckId,
-        ManufactureYear = 2021,
-        ModelYear = 2021,
+        ModelYear = 2022,
         Name = "Truck unit test",
         TruckModelId = 1
       };
@@ -113,24 +115,40 @@ namespace VolvoExam.ApplicationTest.Service
       var serviceTruckMockObject = serviceTruckMock.Object;
 
       // Act
-      var ss = serviceTruckMockObject.Edit(
-     new TruckTransient
-     {
-       ManufactureYear = 2022,
-       ModelYear = 2022,
-       Name = "Truck unit test edited",
-       TruckModelId = 2
-     }, truckId);
+      var truckActed = new TruckTransient
+      {
+        Id = truckId,
+        ModelYear = 2023,
+        Name = "Truck unit test edited",
+        TruckModelId = 1
+      };
 
+      serviceTruckMockObject.Edit(truckActed, truckId);
 
       var truck = serviceTruckMockObject.GetTruck(truckId);
 
       // Assert
-      Assert.Equal(truckId, truck.Id);
-      Assert.NotEqual(truckDto.Name, truck.Name);
-      Assert.NotEqual(truck.ModelYear, truck.ModelYear);
-      Assert.NotEqual(truck.ManufactureYear, truck.ManufactureYear);
-      Assert.Equal(truck.TruckModelId, truck.TruckModelId);
+      Assert.Equal(truckId, truckActed.Id);
+      Assert.NotEqual(truck.Name, truckActed.Name);
+      Assert.NotEqual(truck.ModelYear, truckActed.ModelYear);
+      Assert.Equal(truck.TruckModelId, truckActed.TruckModelId);
     }
+
+    [Fact]
+    public void GetTruckModel_Should_Return_Only_Active_Models()
+    {
+      var models = new List<TruckModel>(){
+        new TruckModel() { Id = 1, Name = "FH", Active = true },
+        new TruckModel() { Id = 2, Name = "FM", Active = true },
+        new TruckModel() { Id = 3, Name = "FV", Active = false },
+        new TruckModel() { Id = 4, Name = "WG", Active = false }
+      };
+
+      var activeTruckModels = new List<string>() { "FH", "FM" };
+
+      Assert.Equal(activeTruckModels.First(), models.Where(x => x.Name.Equals(activeTruckModels.First())).FirstOrDefault().Name);
+      Assert.Equal(activeTruckModels.Last(), models.Where(x => x.Name.Equals(activeTruckModels.Last())).FirstOrDefault().Name);
+    }
+  
   }
 }

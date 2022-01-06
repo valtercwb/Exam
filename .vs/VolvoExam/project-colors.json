@@ -15,7 +15,12 @@
       "ProjectGuid": "512a108b-ce21-4eca-ab28-e16ff1f41eac",
       "DisplayName": "VolvoExam",
       "ColorIndex": 2
+    },
+    "49fc1d8f-fd0f-42a9-bd08-8601af22f863": {
+      "ProjectGuid": "49fc1d8f-fd0f-42a9-bd08-8601af22f863",
+      "DisplayName": "VolvoExam.ApplicationTest",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

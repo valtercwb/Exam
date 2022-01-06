@@ -20,7 +20,7 @@ namespace VolvoExam.Application.Service
       _mapper = mapper;
     }
 
-    IEnumerable<TruckModel> ITruckService.ListTruckModel()
+    public IEnumerable<TruckModel> ListTruckModel()
     {
       return _truckRepository.ListTruckModel();
     }
