@@ -31,8 +31,10 @@ namespace VolvoExam
 
       services.AddScoped<ITruckService, TruckService>();
       services.AddScoped<ITruckRepository, TruckRepository>();
-      var connectionString = Configuration["DefaultConnection:ConnectionString"];
-      services.AddDbContext<Data.VolvoExamDbContext>(options => options.UseLazyLoadingProxies().UseNpgsql(connectionString));
+      services.AddDbContext<Data.VolvoExamDbContext>(opt => opt.UseInMemoryDatabase("LocalDb"));
+
+      //var connectionString = Configuration["DefaultConnection:ConnectionString"];
+      //services.AddDbContext<Data.VolvoExamDbContext>(options => options.UseLazyLoadingProxies().UseNpgsql(connectionString));
 
       var config = new AutoMapper.MapperConfiguration(cfg =>
       {

@@ -59,11 +59,7 @@ namespace VolvoExam.Controllers
     /// <returns></returns>
     public IActionResult Create()
     {
-      ViewData["TruckModels"] = Util.ExtensionMethods.SetDefaultSelect(
-        _truckService.ListTruckModel().Select(x => new SelectListItem() { Text = x.Name, Value = x.Id.ToString() }).ToList());
-
-      ViewData["ModelYear"] = Util.ExtensionMethods.SetDefaultSelect(
-        _truckService.GetValidTruckModelYears().Select(x => new SelectListItem() { Text = x.ToString(), Value = x.ToString() }).ToList());
+      LoadViewCreateEdit();
 
       return View();
     }
@@ -83,6 +79,10 @@ namespace VolvoExam.Controllers
         _truckService.Create(_mapper.Map<TruckTransient>(truck));
 
         return RedirectToAction(nameof(Index));
+      }
+      else
+      {
+        LoadViewCreateEdit();
       }
 
       return View(truck);
@@ -128,11 +128,7 @@ namespace VolvoExam.Controllers
         return NotFound();
       }
 
-      ViewData["TruckModels"] = Util.ExtensionMethods.SetDefaultSelect(
-        _truckService.ListTruckModel().Select(x => new SelectListItem() { Text = x.Name, Value = x.Id.ToString() }).ToList());
-
-      ViewData["ModelYear"] = Util.ExtensionMethods.SetDefaultSelect(
-        _truckService.GetValidTruckModelYears().Select(x => new SelectListItem() { Text = x.ToString(), Value = x.ToString() }).ToList());
+      LoadViewCreateEdit();
 
       return View(truck);
     }
@@ -152,8 +148,21 @@ namespace VolvoExam.Controllers
 
         return RedirectToAction(nameof(Index));
       }
+      else
+      {
+        LoadViewCreateEdit();
+      }
 
       return View(truck);
+    }
+
+    public void LoadViewCreateEdit()
+    {
+      ViewData["TruckModels"] = Util.ExtensionMethods.SetDefaultSelect(
+        _truckService.ListTruckModel().Select(x => new SelectListItem() { Text = x.Name, Value = x.Id.ToString() }).ToList());
+
+      ViewData["ModelYear"] = Util.ExtensionMethods.SetDefaultSelect(
+        _truckService.GetValidTruckModelYears().Select(x => new SelectListItem() { Text = x.ToString(), Value = x.ToString() }).ToList());
     }
 
   }

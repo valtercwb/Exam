@@ -8,6 +8,10 @@ namespace VolvoExam.Data
     public VolvoExamDbContext(DbContextOptions<VolvoExamDbContext> options) : base(options)
     {
     }
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+      optionsBuilder.UseLazyLoadingProxies();
+    }
 
     public DbSet<Truck> Truck { get; set; }
     public DbSet<TruckModel> TruckModel { get; set; }

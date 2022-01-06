@@ -59,7 +59,7 @@ namespace VolvoExam.Data.Repository
 
     IEnumerable<Truck> ITruckRepository.List()
     {
-      return _context.Truck.OrderBy(x => x.Name).ToList();
+      return _context.Set<Truck>().Include(x => x.TruckModel).OrderBy(x => x.Name).ToList();
     }
   }
 }

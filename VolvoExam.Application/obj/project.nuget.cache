@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Yz+NhCWjmsFXUpBo/+Lte0AeLfT+gzcUPac2b3NVpk+rhLQsXs9Bpjl0zkcec0MKdgI81BbSX9YFiLEcAlK/4w==",
+  "dgSpecHash": "MwsgYz9CIvfqTuoAX/bpr/3TOLNreVrw8UyZLuAc7z/16Wa+SHdv/pbgw30lhG1hz1pPu6PECOz0+MxmnHsIvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Application\\VolvoExam.Application.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
+    "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.0\\microsoft.entityframeworkcore.inmemory.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\5.0.0\\microsoft.entityframeworkcore.proxies.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",

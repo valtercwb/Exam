@@ -13,11 +13,6 @@ C:\Users\Valter\Desktop\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Applica
 C:\Users\Valter\Desktop\VolvoExam.Application\obj\Debug\net5.0\ref\VolvoExam.Application.dll
 C:\Users\Valter\Desktop\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.pdb
 C:\Users\Valter\Desktop\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.csproj.CopyComplete
-C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.csproj.AssemblyReference.cache
-C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.AssemblyInfoInputs.cache
-C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.AssemblyInfo.cs
-C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.csproj.CoreCompileInputs.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\bin\Debug\net5.0\VolvoExam.Application.deps.json
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\bin\Debug\net5.0\VolvoExam.Application.runtimeconfig.json
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\bin\Debug\net5.0\VolvoExam.Application.runtimeconfig.dev.json
@@ -26,6 +21,11 @@ C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\bin\Debug\net5.0\ref
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\bin\Debug\net5.0\VolvoExam.Application.pdb
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\bin\Debug\net5.0\VolvoExam.Data.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\bin\Debug\net5.0\VolvoExam.Data.pdb
+C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.csproj.AssemblyReference.cache
+C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.AssemblyInfoInputs.cache
+C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.AssemblyInfo.cs
+C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.csproj.CoreCompileInputs.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.csproj.CopyComplete
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\VolvoExam.Application.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Application\obj\Debug\net5.0\ref\VolvoExam.Application.dll

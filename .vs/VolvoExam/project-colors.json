@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "34dd3e31-3955-4bbf-a5eb-f86c56359b37": {
+      "ProjectGuid": "34dd3e31-3955-4bbf-a5eb-f86c56359b37",
+      "DisplayName": "VolvoExam.Application",
+      "ColorIndex": 0
+    },
+    "2daaa3bd-e826-493d-99a2-76f3f85e0ac5": {
+      "ProjectGuid": "2daaa3bd-e826-493d-99a2-76f3f85e0ac5",
+      "DisplayName": "VolvoExam.Data",
+      "ColorIndex": 1
+    },
+    "512a108b-ce21-4eca-ab28-e16ff1f41eac": {
+      "ProjectGuid": "512a108b-ce21-4eca-ab28-e16ff1f41eac",
+      "DisplayName": "VolvoExam",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

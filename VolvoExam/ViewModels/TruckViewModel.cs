@@ -6,6 +6,9 @@ namespace VolvoExam.ViewModels
   public class TruckViewModel
   {
     public long Id { get; set; }
+
+    [Required(ErrorMessage = "Truck Model is required")]
+    [DisplayName("Truck Model")]
     public long TruckModelId { get; set; }
     public TruckModelViewModel TruckModel { get; set; }
 

@@ -19,6 +19,7 @@ C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\bin\Debug\net5.0\VolvoExam.
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\bin\Debug\net5.0\VolvoExam.Data.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\bin\Debug\net5.0\ref\VolvoExam.Data.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\bin\Debug\net5.0\VolvoExam.Data.pdb
+C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.csproj.AssemblyReference.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.AssemblyInfoInputs.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.AssemblyInfo.cs
@@ -27,4 +28,3 @@ C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\ref\VolvoExam.Data.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.pdb
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.genruntimeconfig.cache
-C:\Users\Valter\Documents\GitHub\Exam\VolvoExam.Data\obj\Debug\net5.0\VolvoExam.Data.csproj.AssemblyReference.cache

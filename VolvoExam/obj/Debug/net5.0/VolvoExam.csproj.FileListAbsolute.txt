@@ -75,6 +75,7 @@ C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\bin\Debug\net5.0\Npgsql.dll
@@ -101,9 +102,8 @@ C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\VolvoExam.cspro
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\VolvoExam.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\VolvoExam.RazorAssemblyInfo.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\VolvoExam.RazorAssemblyInfo.cs
-C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\staticwebassets\VolvoExam.StaticWebAssets.Manifest.cache
-C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\staticwebassets\VolvoExam.StaticWebAssets.xml
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\scopedcss\bundle\VolvoExam.styles.css
+C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\staticwebassets\VolvoExam.StaticWebAssets.Manifest.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\VolvoExam.TagHelpers.input.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\VolvoExam.TagHelpers.output.cache
 C:\Users\Valter\Documents\GitHub\Exam\VolvoExam\obj\Debug\net5.0\VolvoExam.RazorCoreGenerate.cache

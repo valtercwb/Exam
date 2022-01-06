@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YTr1PCmBDgGNGk90+d1h4NJKYfS0t4EneiAn0vJeKOHY9cJsbN2Z+6IcmyPVjcqKr/GJydLme0DIXMta6jkI/w==",
+  "dgSpecHash": "3xd3K26+P30lZ0SsPWrevJrvO/bvclxhH3K8ImeWIutUnL9xIZuxv1qNp6qRTL/llLDwCYZmGzjNOnRwUiHlCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Valter\\Documents\\GitHub\\Exam\\VolvoExam.Data\\VolvoExam.Data.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0\\microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
+    "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.0\\microsoft.entityframeworkcore.inmemory.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\5.0.0\\microsoft.entityframeworkcore.proxies.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
     "C:\\Users\\Valter\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.0\\microsoft.entityframeworkcore.tools.5.0.0.nupkg.sha512",

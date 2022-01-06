@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace VolvoExam.ViewModels
 {
@@ -6,6 +7,7 @@ namespace VolvoExam.ViewModels
   {
     public long Id { get; set; }
 
+    [Required(ErrorMessage = "Truck Model is required")]
     [DisplayName("Model name")]
     public string Name { get; set; }
     public bool Active { get; set; }
